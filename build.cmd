@@ -1,0 +1,1 @@
+pyinstaller --workpath ../build --distpath ../build/dist -p ./predict.py -p ./fruits_classification_model.py --add-data=./assets;./assets -D -w -i ./assets/icon.ico app.py

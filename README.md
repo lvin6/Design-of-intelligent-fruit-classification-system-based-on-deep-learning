@@ -1,2 +1,11 @@
-# Design-of-intelligent-fruit-classification-system-based-on-deep-learning
-基于深度学习的智能水果分类系统设计
+# 文件夹说明
+本文件夹存放相关源代码和资源
+
+`assets` 存放最终 GUI 软件需要的一些资源，且资源来自于模型的训练结果
+
+`app.py` GUI 软件的源代码
+
+`predict.py` 可独立于软件使用的图片推理(识别)模块，需要数据标签和训练好的模型
+
+`train.py` 模型训练代码
+
